@@ -1,6 +1,6 @@
 {
   "name": "@mcptoolshop/sovereignty",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Sovereignty — a strategy game about governance, trust, and trade. Zero-prerequisite npx install.",
   "type": "commonjs",
   "license": "MIT",
