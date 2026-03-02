@@ -1,0 +1,36 @@
+{
+  "name": "@mcptoolshop/sovereignty",
+  "version": "1.4.1",
+  "description": "Sovereignty — a strategy game about governance, trust, and trade. Zero-prerequisite npx install.",
+  "type": "commonjs",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "bin": {
+    "sovereignty": "bin/sovereignty.js"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "verify": "node -e \"require('./bin/sovereignty.js'); console.log('config OK')\" 2>&1 || true"
+  },
+  "keywords": [
+    "sovereignty",
+    "board-game",
+    "strategy",
+    "governance",
+    "xrpl",
+    "cli"
+  ],
+  "dependencies": {
+    "@mcptoolshop/npm-launcher": "^1.0.0"
+  },
+  "author": "mcp-tool-shop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcp-tool-shop-org/npm-sovereignty.git"
+  },
+  "homepage": "https://github.com/mcp-tool-shop-org/sovereignty"
+}
