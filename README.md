@@ -49,6 +49,21 @@ npx @mcptoolshop/sovereignty --help      # see all commands
 - macOS x64 (Intel)
 - Windows x64
 
+## Troubleshooting
+
+```bash
+npx @mcptoolshop/sovereignty self-check         # diagnose your environment
+npx @mcptoolshop/sovereignty support-bundle     # write a zip for bug reports
+npx @mcptoolshop/sovereignty --print-cache-path # show cached binary location
+npx @mcptoolshop/sovereignty --clear-cache      # force fresh re-download
+```
+
+**Pin to a specific version** if the latest has a regression:
+
+```bash
+npx @mcptoolshop/sovereignty@1.4.5 tutorial
+```
+
 ## Security
 
 All binaries are verified against SHA256 checksums before execution. No telemetry. No network access beyond the initial download from GitHub.
